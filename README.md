@@ -4,9 +4,11 @@ Blossom is a graph-based computer programming language, meant to be used with a 
 
 This repository serves as a home for the specification of Blossom, and will keep track of example Blossom programmes that are useful or interesting, and will keep a list of any implementations of Blossom.
 
-  * [Blossom Language Specification](https://github.com/blossom-lang/blossom/blob/master/spec/README.md)
-  * [Blossom Programme Examples](https://github.com/blossom-lang/blossom/blob/master/examples/README.md)
-  * [Contributing to Blossom](https://github.com/blossom-lang/blossom/blob/master/contributing/README.md)
+## Quick Links
+
+  * The [Blossom language specification](https://github.com/blossom-lang/blossom/blob/master/spec/README.md)
+  * Some [example Blossom programmes](https://github.com/blossom-lang/blossom/blob/master/examples/README.md)
+  * How to [contribute to Blossom](https://github.com/blossom-lang/blossom/blob/master/contributing/README.md)
 
 ## Blossom Implementations
 
