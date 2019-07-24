@@ -1,11 +1,11 @@
 # Blossom Specifications (Incomplete)
 
-Blossom has two main concepts: [**Graphs**](#Blossom_Graphs) and [**Graph Programs**](#Blossom_Graph_Programs).
+Blossom has two main concepts: [**Graphs**](#blossom-graphs) and [**Graph Programs**](#blossom-graph-programs).
 
 ## Blossom Graphs
 
 Blossom graphs are denoted with square brackets. An empty graph is represented like so: `[]`.
-A blossom graph is a set of [**nodes**](#Nodes), followed by a set of [**edges**](#Edges). These two sets are separated with a vertical pipe (`|`).
+A blossom graph is a set of [**nodes**](#nodes), followed by a set of [**edges**](#edges). These two sets are separated with a vertical pipe (`|`).
 So an alternative way of representing an empty graph would be this: `[|]`. If a graph has no edges, the vertical pipe is also not required, hence the first empty graph: `[]`.
 
 ### Nodes 
@@ -70,7 +70,7 @@ There is also the special `any` type, which means the value's type is unknown.
 
 ## Blossom Graph Programs
 
-A blossom program is made up of [**rule**](#Rules) definitions and then declarations about their application. 
+A blossom program is made up of [**rule**](#rules) definitions and then declarations about their application. 
 A rule is the most basic way blossom interacts with graphs. It's made up of an *match graph*, and a *resultant graph*. 
 For a rule to be applied to a *host graph*, there must be some way to map the nodes and edges of the match graph to corresponding nodes and edges in the host graph.
 
