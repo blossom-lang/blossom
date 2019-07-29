@@ -6,8 +6,8 @@ This repository serves as a home for the specification of Blossom, and will keep
 
 ## Quick Links
 
-  * The [Blossom language specification](https://github.com/blossom-lang/blossom/blob/master/spec/README.md)
-  * Some [example Blossom programmes](https://github.com/blossom-lang/blossom/blob/master/examples/README.md)
+  * The [Blossom language specification](https://github.com/blossom-lang/blossom/blob/master/spec/README.md#blossom-specifications)
+  * Some [example Blossom programmes](https://github.com/blossom-lang/blossom/blob/master/examples/README.md##blossom-examples)
   * How to [contribute to Blossom](https://github.com/blossom-lang/blossom/blob/master/contributing/README.md)
 
 ## Blossom Implementations
