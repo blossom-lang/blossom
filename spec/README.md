@@ -1,4 +1,6 @@
-# Blossom Specifications (Incomplete)
+(DISCLAIMER: These specifications are currently incomplete and are subject to change.)
+
+# Blossom Specifications
 
 Blossom has two main concepts: [**Graphs**](#blossom-graphs) and [**Graph Programs**](#blossom-graph-programs).
 
