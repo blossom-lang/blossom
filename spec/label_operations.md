@@ -6,6 +6,10 @@ And this will be the new value of the label.
 
 ## Numeric Operations
 
+Numerical operations with two values of the same type will return that type with one exception. An integer divided by an integer will return a rational. The `floor` and `ceil` functions exist to round down or up (respectively) from a real or rational to an integer.
+
+Numerical operations with two values of different types will return a value of the type with the higher precedence. The order, from lowest to highest is (`integer`, `rational`, `real`).
+
   * `^` : Exponential
   * `/` : Division
   * `*` : Multiplication
