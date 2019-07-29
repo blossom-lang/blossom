@@ -84,5 +84,7 @@ A rule defines a transformation from one (sub)graph into another. The applicatio
 
 Given the format of Blossom programs, assignments to variables don't exist. Instead the label in the resultant graph of a rule will determine the value after the rule's application. The resultant graph can refer to the value, using variables if need be, before the rule's application, and can manipulate it in some way.
 
+If no label is specified in the initial graph of a rule, then it will match any label. To specify a node or edge with no value, use the void keyword. If no label is specified for a node in the result graph of a rule, then it will retain its label from the initial graph. If the node did not exist in the initial graph, then it will have an empty label. It is recommended that you provide labels whenever you can to be clear of your intentions, and not rely on the defaults when they're omitted to convey meaning.
+
 For more information on Label Operations, see the [full list](https://github.com/blossom-lang/blossom/blob/master/spec/label_operations.md#label-operations).
 
