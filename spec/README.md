@@ -82,6 +82,7 @@ A rule defines a transformation from one (sub)graph into another. The applicatio
 
 #### Label Operations
 
-Numerical operations with two values of the same type will return that type with one exception. An integer divided by an integer will return a rational. The `floor` and `ceil` functions exist to round down or up (respectively) from a real or rational to an integer.
+Given the format of Blossom programs, assignments to variables don't exist. Instead the label in the resultant graph of a rule will determine the value after the rule's application. The resultant graph can refer to the value, using variables if need be, before the rule's application, and can manipulate it in some way.
 
-Numerical operations with two values of different types will return a value of the type with the higher precedence. The order, from lowest to highest is (`integer`, `rational`, `real`).
+For more information on Label Operations, see the [full list](https://github.com/blossom-lang/blossom/blob/master/spec/label_operations.md#label-operations).
+
